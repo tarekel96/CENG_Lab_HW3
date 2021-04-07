@@ -35,7 +35,8 @@ int main(int argv, char ** argc){
 		openlog(LOG_FILE, LOG_ERR | LOG_INFO | LOG_USER, LOG_ERR);
 		
 		// log success message to custom log file
-		syslog(LOG_ERR, "(Tarek/Tavid) Success: Opened file, %s\n", fileName);
+		syslog(LOG_USER, "(Tarek/Tavid) Success: Opened file, %s\n", fileName);
+		syslog(LOG_INFO, "(Tarek/Tavid) Success: Opened file, %s\n", fileName);
 	}
 	
 	// terminate program
