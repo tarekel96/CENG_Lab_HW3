@@ -3,7 +3,7 @@
 ## Collaboration project between Tavid Terzian and Tarek El-Hajjaoui.
 
 ## Description of Program:
-  -This is a C program that opens a file and logs an error or success message in the log.
+  -This is a C program that opens a file and logs an error or success message in the log.  
   -Input the name of the file you wish to open in the cmd line when running the program.
   -If the file exists and is opened a success message will be put into the log file syslog
   -If the file does not exist of there was an error opening the file a failed message will be put into the logfile syslog
