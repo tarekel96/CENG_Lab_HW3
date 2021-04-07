@@ -9,10 +9,10 @@
   -If the file does not exist of there was an error opening the file a failed message will be put into the logfile syslog
   -syslog is located in var/log path
   
-## Instructions to run the program
+## Instructions to run the program:
   -Compile with gcc: gcc syslog.c -o CustomNameHere
   -Run with command: ./CustomNameHere FileNameHere.extension
   
-## Sources
+## Sources:
   -Linux Man page: https://linux.die.net/man/3/syslog
   -GNU: https://www.gnu.org/software/libc/manual/html_node/Syslog-Example.html
