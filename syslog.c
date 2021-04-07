@@ -26,7 +26,7 @@ int main(int argv, char ** argc){
 		openlog(LOG_FILE, LOG_INFO | LOG_USER, LOG_USER);
 		
 		// log err message to custom log file
-		syslog(LOG_ERR, "(Tarek) ERROR: An error occured in trying to open the file %s\n", fileName);
+		syslog(LOG_ERR, "(Tarek/Tavid) ERROR: An error occured in trying to open the file %s\n", fileName);
 	}
 	// no err was returned by open
 	else {
@@ -35,7 +35,7 @@ int main(int argv, char ** argc){
 		openlog(LOG_FILE, LOG_ERR | LOG_INFO | LOG_USER, LOG_ERR);
 		
 		// log success message to custom log file
-		syslog(LOG_ERR, "(Tarek) Success: Opened file, %s\n", fileName);
+		syslog(LOG_ERR, "(Tarek/Tavid) Success: Opened file, %s\n", fileName);
 	}
 	
 	// terminate program
